@@ -13,13 +13,13 @@ set(CMAKE_CONFIGURATION_TYPES "Debug;Release" CACHE STRING "Available build conf
 
 # Common include directories
 set(COMMON_INCLUDE_DIRS
-        ${CMAKE_SOURCE_DIR}
-        ${CMAKE_SOURCE_DIR}/include
-        ${CMAKE_SOURCE_DIR}/sodium
-        ${CMAKE_SOURCE_DIR}/tlsf
-        ${CMAKE_SOURCE_DIR}/netcode
-        ${CMAKE_SOURCE_DIR}/reliable
-        ${CMAKE_SOURCE_DIR}/serialize
+        ${CMAKE_CURRENT_SOURCE_DIR}
+        ${CMAKE_CURRENT_SOURCE_DIR}/include
+        ${CMAKE_CURRENT_SOURCE_DIR}/sodium
+        ${CMAKE_CURRENT_SOURCE_DIR}/tlsf
+        ${CMAKE_CURRENT_SOURCE_DIR}/netcode
+        ${CMAKE_CURRENT_SOURCE_DIR}/reliable
+        ${CMAKE_CURRENT_SOURCE_DIR}/serialize
 )
 
 # Apply common include directories
